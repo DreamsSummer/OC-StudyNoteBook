@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC391AC91C9585DC003C71D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC391AC81C9585DC003C71D4 /* main.m */; };
+		BC391AD61C959606003C71D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC391AD51C959606003C71D4 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC391AC31C9585DB003C71D4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BC391AD11C959606003C71D4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BC391AC51C9585DB003C71D4 /* 无参方法的实现及调用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "无参方法的实现及调用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC391AC81C9585DC003C71D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC391AD31C959606003C71D4 /* 有参方法的声明和调用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "有参方法的声明和调用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC391AD51C959606003C71D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC391AC21C9585DB003C71D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC391AD01C959606003C71D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC391ABC1C9585DB003C71D4 = {
+			isa = PBXGroup;
+			children = (
+				BC391AC71C9585DB003C71D4 /* 无参方法的实现及调用 */,
+				BC391AD41C959606003C71D4 /* 有参方法的声明和调用 */,
+				BC391AC61C9585DB003C71D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC391AC61C9585DB003C71D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC391AC51C9585DB003C71D4 /* 无参方法的实现及调用 */,
+				BC391AD31C959606003C71D4 /* 有参方法的声明和调用 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC391AC71C9585DB003C71D4 /* 无参方法的实现及调用 */ = {
+			isa = PBXGroup;
+			children = (
+				BC391AC81C9585DC003C71D4 /* main.m */,
+			);
+			path = "无参方法的实现及调用";
+			sourceTree = "<group>";
+		};
+		BC391AD41C959606003C71D4 /* 有参方法的声明和调用 */ = {
+			isa = PBXGroup;
+			children = (
+				BC391AD51C959606003C71D4 /* main.m */,
+			);
+			path = "有参方法的声明和调用";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC391AC41C9585DB003C71D4 /* 无参方法的实现及调用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC391ACC1C9585DC003C71D4 /* Build configuration list for PBXNativeTarget "无参方法的实现及调用" */;
+			buildPhases = (
+				BC391AC11C9585DB003C71D4 /* Sources */,
+				BC391AC21C9585DB003C71D4 /* Frameworks */,
+				BC391AC31C9585DB003C71D4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "无参方法的实现及调用";
+			productName = "无参方法的实现及调用";
+			productReference = BC391AC51C9585DB003C71D4 /* 无参方法的实现及调用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BC391AD21C959606003C71D4 /* 有参方法的声明和调用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC391AD71C959606003C71D4 /* Build configuration list for PBXNativeTarget "有参方法的声明和调用" */;
+			buildPhases = (
+				BC391ACF1C959606003C71D4 /* Sources */,
+				BC391AD01C959606003C71D4 /* Frameworks */,
+				BC391AD11C959606003C71D4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "有参方法的声明和调用";
+			productName = "有参方法的声明和调用";
+			productReference = BC391AD31C959606003C71D4 /* 有参方法的声明和调用 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC391ABD1C9585DB003C71D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = liser;
+				TargetAttributes = {
+					BC391AC41C9585DB003C71D4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BC391AD21C959606003C71D4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BC391AC01C9585DB003C71D4 /* Build configuration list for PBXProject "无参方法的实现及调用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC391ABC1C9585DB003C71D4;
+			productRefGroup = BC391AC61C9585DB003C71D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC391AC41C9585DB003C71D4 /* 无参方法的实现及调用 */,
+				BC391AD21C959606003C71D4 /* 有参方法的声明和调用 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC391AC11C9585DB003C71D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC391AC91C9585DC003C71D4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC391ACF1C959606003C71D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC391AD61C959606003C71D4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC391ACA1C9585DC003C71D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BC391ACB1C9585DC003C71D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BC391ACD1C9585DC003C71D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC391ACE1C9585DC003C71D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC391AD81C959606003C71D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC391AD91C959606003C71D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC391AC01C9585DB003C71D4 /* Build configuration list for PBXProject "无参方法的实现及调用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC391ACA1C9585DC003C71D4 /* Debug */,
+				BC391ACB1C9585DC003C71D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC391ACC1C9585DC003C71D4 /* Build configuration list for PBXNativeTarget "无参方法的实现及调用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC391ACD1C9585DC003C71D4 /* Debug */,
+				BC391ACE1C9585DC003C71D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC391AD71C959606003C71D4 /* Build configuration list for PBXNativeTarget "有参方法的声明和调用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC391AD81C959606003C71D4 /* Debug */,
+				BC391AD91C959606003C71D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC391ABD1C9585DB003C71D4 /* Project object */;
+}
