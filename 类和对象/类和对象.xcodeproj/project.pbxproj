@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCE3973C1C918D5300853AD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE3973B1C918D5300853AD1 /* main.m */; };
+		BCE397491C91954C00853AD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE397481C91954C00853AD1 /* main.m */; };
+		BCE397541C91A4A300853AD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE397531C91A4A300853AD1 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BCE397361C918D5300853AD1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCE397441C91954C00853AD1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCE3974F1C91A4A300853AD1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BCE397381C918D5300853AD1 /* 类和对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "类和对象"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE3973B1C918D5300853AD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCE397461C91954C00853AD1 /* 13-创建对象并且访问成员变量 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "13-创建对象并且访问成员变量"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE397481C91954C00853AD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCE397511C91A4A300853AD1 /* 14-无参方法的实现和调用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "14-无参方法的实现和调用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE397531C91A4A300853AD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCE397351C918D5300853AD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE397431C91954C00853AD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE3974E1C91A4A300853AD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCE3972F1C918D5300853AD1 = {
+			isa = PBXGroup;
+			children = (
+				BCE3973A1C918D5300853AD1 /* 类和对象 */,
+				BCE397471C91954C00853AD1 /* 13-创建对象并且访问成员变量 */,
+				BCE397521C91A4A300853AD1 /* 14-无参方法的实现和调用 */,
+				BCE397391C918D5300853AD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCE397391C918D5300853AD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCE397381C918D5300853AD1 /* 类和对象 */,
+				BCE397461C91954C00853AD1 /* 13-创建对象并且访问成员变量 */,
+				BCE397511C91A4A300853AD1 /* 14-无参方法的实现和调用 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCE3973A1C918D5300853AD1 /* 类和对象 */ = {
+			isa = PBXGroup;
+			children = (
+				BCE3973B1C918D5300853AD1 /* main.m */,
+			);
+			path = "类和对象";
+			sourceTree = "<group>";
+		};
+		BCE397471C91954C00853AD1 /* 13-创建对象并且访问成员变量 */ = {
+			isa = PBXGroup;
+			children = (
+				BCE397481C91954C00853AD1 /* main.m */,
+			);
+			path = "13-创建对象并且访问成员变量";
+			sourceTree = "<group>";
+		};
+		BCE397521C91A4A300853AD1 /* 14-无参方法的实现和调用 */ = {
+			isa = PBXGroup;
+			children = (
+				BCE397531C91A4A300853AD1 /* main.m */,
+			);
+			path = "14-无参方法的实现和调用";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCE397371C918D5300853AD1 /* 类和对象 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE3973F1C918D5300853AD1 /* Build configuration list for PBXNativeTarget "类和对象" */;
+			buildPhases = (
+				BCE397341C918D5300853AD1 /* Sources */,
+				BCE397351C918D5300853AD1 /* Frameworks */,
+				BCE397361C918D5300853AD1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "类和对象";
+			productName = "类和对象";
+			productReference = BCE397381C918D5300853AD1 /* 类和对象 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCE397451C91954C00853AD1 /* 13-创建对象并且访问成员变量 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE3974A1C91954C00853AD1 /* Build configuration list for PBXNativeTarget "13-创建对象并且访问成员变量" */;
+			buildPhases = (
+				BCE397421C91954C00853AD1 /* Sources */,
+				BCE397431C91954C00853AD1 /* Frameworks */,
+				BCE397441C91954C00853AD1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "13-创建对象并且访问成员变量";
+			productName = "13-创建对象并且访问成员变量";
+			productReference = BCE397461C91954C00853AD1 /* 13-创建对象并且访问成员变量 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCE397501C91A4A300853AD1 /* 14-无参方法的实现和调用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE397551C91A4A300853AD1 /* Build configuration list for PBXNativeTarget "14-无参方法的实现和调用" */;
+			buildPhases = (
+				BCE3974D1C91A4A300853AD1 /* Sources */,
+				BCE3974E1C91A4A300853AD1 /* Frameworks */,
+				BCE3974F1C91A4A300853AD1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "14-无参方法的实现和调用";
+			productName = "14-无参方法的实现和调用";
+			productReference = BCE397511C91A4A300853AD1 /* 14-无参方法的实现和调用 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCE397301C918D5300853AD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = liser;
+				TargetAttributes = {
+					BCE397371C918D5300853AD1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BCE397451C91954C00853AD1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BCE397501C91A4A300853AD1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BCE397331C918D5300853AD1 /* Build configuration list for PBXProject "类和对象" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCE3972F1C918D5300853AD1;
+			productRefGroup = BCE397391C918D5300853AD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCE397371C918D5300853AD1 /* 类和对象 */,
+				BCE397451C91954C00853AD1 /* 13-创建对象并且访问成员变量 */,
+				BCE397501C91A4A300853AD1 /* 14-无参方法的实现和调用 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE397341C918D5300853AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE3973C1C918D5300853AD1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE397421C91954C00853AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE397491C91954C00853AD1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE3974D1C91A4A300853AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE397541C91A4A300853AD1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BCE3973D1C918D5300853AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BCE3973E1C918D5300853AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BCE397401C918D5300853AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCE397411C918D5300853AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCE3974B1C91954C00853AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCE3974C1C91954C00853AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCE397561C91A4A300853AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCE397571C91A4A300853AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCE397331C918D5300853AD1 /* Build configuration list for PBXProject "类和对象" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE3973D1C918D5300853AD1 /* Debug */,
+				BCE3973E1C918D5300853AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE3973F1C918D5300853AD1 /* Build configuration list for PBXNativeTarget "类和对象" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE397401C918D5300853AD1 /* Debug */,
+				BCE397411C918D5300853AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE3974A1C91954C00853AD1 /* Build configuration list for PBXNativeTarget "13-创建对象并且访问成员变量" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE3974B1C91954C00853AD1 /* Debug */,
+				BCE3974C1C91954C00853AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE397551C91A4A300853AD1 /* Build configuration list for PBXNativeTarget "14-无参方法的实现和调用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE397561C91A4A300853AD1 /* Debug */,
+				BCE397571C91A4A300853AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCE397301C918D5300853AD1 /* Project object */;
+}
