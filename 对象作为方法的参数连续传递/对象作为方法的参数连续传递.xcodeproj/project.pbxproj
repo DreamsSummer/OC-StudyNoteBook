@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC45774E1C9D80B600334DFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC45774D1C9D80B600334DFE /* main.m */; };
+		BC69843A1C9FCDE200545AD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6984391C9FCDE200545AD8 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC4577481C9D80B600334DFE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BC6984351C9FCDE200545AD8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BC45774A1C9D80B600334DFE /* 对象作为方法的参数连续传递 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "对象作为方法的参数连续传递"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC45774D1C9D80B600334DFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC6984371C9FCDE200545AD8 /* 对象作为方法的参数连续传递-补充 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "对象作为方法的参数连续传递-补充"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6984391C9FCDE200545AD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC4577471C9D80B600334DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6984341C9FCDE200545AD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC4577411C9D80B600334DFE = {
+			isa = PBXGroup;
+			children = (
+				BC45774C1C9D80B600334DFE /* 对象作为方法的参数连续传递 */,
+				BC6984381C9FCDE200545AD8 /* 对象作为方法的参数连续传递-补充 */,
+				BC45774B1C9D80B600334DFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC45774B1C9D80B600334DFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC45774A1C9D80B600334DFE /* 对象作为方法的参数连续传递 */,
+				BC6984371C9FCDE200545AD8 /* 对象作为方法的参数连续传递-补充 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC45774C1C9D80B600334DFE /* 对象作为方法的参数连续传递 */ = {
+			isa = PBXGroup;
+			children = (
+				BC45774D1C9D80B600334DFE /* main.m */,
+			);
+			path = "对象作为方法的参数连续传递";
+			sourceTree = "<group>";
+		};
+		BC6984381C9FCDE200545AD8 /* 对象作为方法的参数连续传递-补充 */ = {
+			isa = PBXGroup;
+			children = (
+				BC6984391C9FCDE200545AD8 /* main.m */,
+			);
+			path = "对象作为方法的参数连续传递-补充";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC4577491C9D80B600334DFE /* 对象作为方法的参数连续传递 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4577511C9D80B600334DFE /* Build configuration list for PBXNativeTarget "对象作为方法的参数连续传递" */;
+			buildPhases = (
+				BC4577461C9D80B600334DFE /* Sources */,
+				BC4577471C9D80B600334DFE /* Frameworks */,
+				BC4577481C9D80B600334DFE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "对象作为方法的参数连续传递";
+			productName = "对象作为方法的参数连续传递";
+			productReference = BC45774A1C9D80B600334DFE /* 对象作为方法的参数连续传递 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BC6984361C9FCDE200545AD8 /* 对象作为方法的参数连续传递-补充 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC69843D1C9FCDE200545AD8 /* Build configuration list for PBXNativeTarget "对象作为方法的参数连续传递-补充" */;
+			buildPhases = (
+				BC6984331C9FCDE200545AD8 /* Sources */,
+				BC6984341C9FCDE200545AD8 /* Frameworks */,
+				BC6984351C9FCDE200545AD8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "对象作为方法的参数连续传递-补充";
+			productName = "对象作为方法的参数连续传递-补充";
+			productReference = BC6984371C9FCDE200545AD8 /* 对象作为方法的参数连续传递-补充 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC4577421C9D80B600334DFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = liser;
+				TargetAttributes = {
+					BC4577491C9D80B600334DFE = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BC6984361C9FCDE200545AD8 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BC4577451C9D80B600334DFE /* Build configuration list for PBXProject "对象作为方法的参数连续传递" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC4577411C9D80B600334DFE;
+			productRefGroup = BC45774B1C9D80B600334DFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC4577491C9D80B600334DFE /* 对象作为方法的参数连续传递 */,
+				BC6984361C9FCDE200545AD8 /* 对象作为方法的参数连续传递-补充 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC4577461C9D80B600334DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC45774E1C9D80B600334DFE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6984331C9FCDE200545AD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC69843A1C9FCDE200545AD8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC45774F1C9D80B600334DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BC4577501C9D80B600334DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BC4577521C9D80B600334DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC4577531C9D80B600334DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC69843B1C9FCDE200545AD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC69843C1C9FCDE200545AD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC4577451C9D80B600334DFE /* Build configuration list for PBXProject "对象作为方法的参数连续传递" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC45774F1C9D80B600334DFE /* Debug */,
+				BC4577501C9D80B600334DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC4577511C9D80B600334DFE /* Build configuration list for PBXNativeTarget "对象作为方法的参数连续传递" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4577521C9D80B600334DFE /* Debug */,
+				BC4577531C9D80B600334DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC69843D1C9FCDE200545AD8 /* Build configuration list for PBXNativeTarget "对象作为方法的参数连续传递-补充" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC69843B1C9FCDE200545AD8 /* Debug */,
+				BC69843C1C9FCDE200545AD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC4577421C9D80B600334DFE /* Project object */;
+}
